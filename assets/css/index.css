@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(240, 237, 237);
 }
 
@@ -87,8 +87,21 @@ body{
     font-weight: bold;
 }
 
-.category span:first-child{
+.category span:first-child {
     color: red;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 100%;
 }
 
 @media screen and (max-width:930px) {
@@ -144,7 +157,8 @@ body{
         display: block;
         text-align: left;
     }
-    .about{
+
+    .about {
         width: 100% !important;
     }
 }
